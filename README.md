@@ -1,2 +1,6 @@
 # AutoStreamingMipmapSetter
 アセットのインポート時とImportSettingsの変更時にGenerate Mip Mapsが有効なときに自動でStreaming Mip Mapsを有効にしてくれるマン
+
+Import SettingsでGenerate Mip Mapsが有効な場合、一緒にStreaming Mipmapsも有効にします
+
+インポート済みのファイルについては、再インポートの実行時やImport Settingsの設定変更時に実行されます。
