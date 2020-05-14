@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-
+#if UNITY_EDITOR
 public class AutoStreamingMipmapSetter : AssetPostprocessor
 {
     void OnPreprocessTexture()
@@ -17,3 +17,4 @@ public class AutoStreamingMipmapSetter : AssetPostprocessor
         Ti.streamingMipmaps = true;
     }
 }
+#endif
